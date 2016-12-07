@@ -1,0 +1,144 @@
+.dani-portrait {
+  width: 90%;
+  margin-top: 170px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav li {
+  display: inline-block;
+}
+
+ header {
+   position: relative;
+  background-size: cover;
+
+}
+
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+.header-image {
+  background: url('../images/gardens.jpg');
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 30%;
+}
+
+.link-container {
+  background-color: #364156;
+  max-width: 940px;
+  margin: 0px auto;
+}
+
+.link {
+  text-align: center;
+}
+
+.link a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none; 
+}
+
+.interest li {
+  margin-bottom: 0;
+}
+
+body {
+text-align: center;
+width: 100%;
+max-width: 1000px;
+margin: 0 auto;
+background-color: #c9d6ea;
+border: 10px solid #b7c8e3;
+}
+
+nav {
+width: 100%;
+margin: 0 0 20px 0;
+}
+
+nav a:hover {
+  width: 100%;
+  color: #c86fc9;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+margin: 0;
+padding-top: 50px;
+padding-bottom: 30px;
+color: #364156;
+background-color: #b7c8e3;
+}
+
+h2 {
+  color: #c86fc9;
+}
+
+.contact {
+padding-top: 50px;
+padding-bottom: 30px;
+}
+
+.contact h2 {
+padding-left: 20px;
+}
+
+.contact ul li {
+  list-style: none;
+}
+
+.contactinfo li {
+  display: inline-flex;
+  vertical-align: middle;
+  padding-left: 20px;
+}
+
+.contact-gmail {
+  padding-right: 300px;
+  padding-top: 50px;
+}
+
+.contact-wordcamp {
+  padding-top: 50px;
+}
+
+.contact-linkedin {
+  padding-top: 50px;
+}
+
+.image-container img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 550px) {
+  .content-wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.about {
+  position: relative;
+}
+
+.wrapper {
+  padding: 30px;
+}
+
+.subMenu {
+  z-index: 1000;
+}
